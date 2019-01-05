@@ -1,0 +1,46 @@
+{
+    "env": {
+        "production": {
+            "presets": [
+                [
+                    "@babel/preset-env"
+                ]
+            ],
+            "plugins": [
+                ["@babel/plugin-proposal-decorators", {
+                    "legacy": true
+                }],
+                ["@babel/plugin-proposal-class-properties", {
+                    "loose": true
+                }],
+                "lodash",
+                "@babel/plugin-proposal-object-rest-spread",
+                "@babel/plugin-syntax-dynamic-import",
+                "@babel/plugin-transform-runtime",
+                "@vue/babel-plugin-transform-vue-jsx",
+                "transform-remove-strict-mode"
+            ]
+        },
+        "development": {
+            "presets": [
+                [
+                    "@babel/preset-env"
+                ]
+            ],
+            "plugins": [
+                ["@babel/plugin-proposal-decorators", {
+                    "legacy": true
+                }],
+                ["@babel/plugin-proposal-class-properties", {
+                    "loose": true
+                }],
+                "lodash",
+                "@babel/plugin-proposal-object-rest-spread",
+                "@babel/plugin-syntax-dynamic-import",
+                "@babel/plugin-transform-runtime",
+                "@vue/babel-plugin-transform-vue-jsx",
+                "transform-remove-strict-mode"
+            ]
+        }
+    }
+}

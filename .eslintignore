@@ -1,0 +1,5 @@
+src/index
+
+**/*.min.js
+**/node_modules/*
+**/build/*

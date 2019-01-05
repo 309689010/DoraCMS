@@ -1,0 +1,12 @@
+yarn.lock
+package-lock.json
+
+.DS_Store
+node_modules/
+npm-debug.log
+.vscode/
+.idea/
+admin.lock
+server/config/secret.js
+public/upload/
+logs/
